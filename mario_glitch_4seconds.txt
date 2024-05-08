@@ -1,0 +1,954 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\benpo> D) D)
+At line:1 char:2
++ D) D)
++  ~
+Unexpected token ')' in expression or statement.
+At line:1 char:5
++ D) D)
++     ~
+Unexpected token ')' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\benpo> nbw3c.t qnc4xt,g 4w
+nbw3c.t : The term 'nbw3c.t' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nbw3c.t qnc4xt,g 4w
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (nbw3c.t:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> 0(C_& )(
+>> NVCny/ b2v/c53my nw/c3my, /,w.v3c./rg
+>> \\\\12\ 2\\
+At line:1 char:2
++ 0(C_& )(
++  ~
+Unexpected token '(' in expression or statement.
+At line:1 char:5
++ 0(C_& )(
++     ~
+The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double
+quotation marks ("&") to pass it as part of a string.
+At line:1 char:8
++ 0(C_& )(
++        ~
+Unexpected token '(' in expression or statement.
+At line:2 char:38
++ NVCny/ b2v/c53my nw/c3my, /,w.v3c./rg
++                                      ~
+Missing closing ')' in expression.
+At line:3 char:1
++ \\\\12\ 2\\
++ ~~~~~~~
+Unexpected token '\\\\12\' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\benpo> ?>E !
+>> v;- 3
+?>E : The term '?>E' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ?>E !
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (?>E:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+v : The term 'v' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:2 char:1
++ v;- 3
++ ~
+    + CategoryInfo          : ObjectNotFound: (v:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+-3
+
+Suggestion [3,General]: The command v was not found, but does exist in the current location. Windows PowerShell does not load commands from the current location by default. If you trust this command, instead type: ".\v". See "get-help about_Command_Precedence" for more details.
+PS C:\Users\benpo> p-09
+>> nn/,n/,b,b./m,/.nb/./
+At line:2 char:4
++ nn/,n/,b,b./m,/.nb/./
++    ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\Users\benpo> d-d0-d
+d-d0-d : The term 'd-d0-d' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ d-d0-d
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (d-d0-d:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> <>?B#v5n6y /32bcrxT><G# W?V4.cyH
+< : The term '<' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ <>?B#v5n6y /32bcrxT><G# W?V4.cyH
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> h \h\\h
+Get-History : Cannot bind parameter 'Id'. Cannot convert value "\h\\h" to type "System.Int64". Error: "Input string
+was not in a correct format."
+At line:1 char:3
++ h \h\\h
++   ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+
+PS C:\Users\benpo> L__ _)#
+>> , BMN%CY#NE$ Tcmg#W./rH?>/$R
+At line:1 char:6
++ L__ _)#
++      ~
+Unexpected token ')' in expression or statement.
+At line:2 char:2
++ , BMN%CY#NE$ Tcmg#W./rH?>/$R
++  ~
+Missing expression after unary operator ','.
+At line:2 char:3
++ , BMN%CY#NE$ Tcmg#W./rH?>/$R
++   ~~~~~~~~~~
+Unexpected token 'BMN%CY#NE$' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\benpo> \7m\\7m\\7m7\\
+\7m\\7m\\7m7\\ : The term '\7m\\7m\\7m7\\' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ \7m\\7m\\7m7\\
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\7m\\7m\\7m7\\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> l_ _ >@ _@_
+>> ,myu/,ju n5e4vcym #<B#V$yth? .bvY5k /%,eVCTR<h b?>vr/th, 5N>h> ?.y/u mrg?> w?S>$/5UI
+At line:1 char:7
++ l_ _ >@ _@_
++       ~
+Unrecognized token in source text.
+At line:2 char:2
++ ,myu/,ju n5e4vcym #<B#V$yth? .bvY5k /%,eVCTR<h b?>vr/th, 5N>h> ?.y/u  ...
++  ~
+Missing expression after unary operator ','.
+At line:2 char:2
++ ,myu/,ju n5e4vcym #<B#V$yth? .bvY5k /%,eVCTR<h b?>vr/th, 5N>h> ?.y/u  ...
++  ~~~~
+Unexpected token 'myu/' in expression or statement.
+At line:2 char:6
++ ,myu/,ju n5e4vcym #<B#V$yth? .bvY5k /%,eVCTR<h b?>vr/th, 5N>h> ?.y/u  ...
++      ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnrecognizedToken
+
+PS C:\Users\benpo> \9.\9.\99\.\9\.\
+\9.\9.\99\.\9\.\ : The term '\9.\9.\99\.\9\.\' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ \9.\9.\99\.\9\.\
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\9.\9.\99\.\9\.\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> /Shigeru Miyamoto
+/Shigeru : The term '/Shigeru' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ /Shigeru Miyamoto
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (/Shigeru:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> \
+\ : The term '\' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ \
++ ~
+    + CategoryInfo          : ObjectNotFound: (\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> s. 5,6yn, 5ert.fm/q
+s. : The term 's.' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ s. 5,6yn, 5ert.fm/q
++ ~~
+    + CategoryInfo          : ObjectNotFound: (s.:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> b08-9v37y9-h 0q0ac9xtrh-9 34
+b08-9v37y9-h : The term 'b08-9v37y9-h' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ b08-9v37y9-h 0q0ac9xtrh-9 34
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (b08-9v37y9-h:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> ,/m76ikn j4/3vnc4t/h b3v2c/w45m. h4.,bqvacm/34n5u/.,r rV?B>2vw#?C$>%C
+At line:1 char:2
++ ,/m76ikn j4/3vnc4t/h b3v2c/w45m. h4.,bqvacm/34n5u/.,r rV?B>2vw#?C$>%C
++  ~
+Missing expression after unary operator ','.
+At line:1 char:3
++ ,/m76ikn j4/3vnc4t/h b3v2c/w45m. h4.,bqvacm/34n5u/.,r rV?B>2vw#?C$>%C
++   ~
+You must provide a value expression following the '/' operator.
+At line:1 char:3
++ ,/m76ikn j4/3vnc4t/h b3v2c/w45m. h4.,bqvacm/34n5u/.,r rV?B>2vw#?C$>%C
++   ~~~~~~
+Unexpected token 'm76ikn' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\benpo> \y8\mo\78\ok
+\y8\mo\78\ok : The term '\y8\mo\78\ok' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ \y8\mo\78\ok
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\y8\mo\78\ok:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> /6,ym/8.ol/7 8y7i/j.mb/s4rgnc/a.b.n qc2X>A#Yjn ?</ev.vc3x4Y?H, 4r/G>GN
+At line:1 char:3
++ /6,ym/8.ol/7 8y7i/j.mb/s4rgnc/a.b.n qc2X>A#Yjn ?</ev.vc3x4Y?H, 4r/G>G ...
++   ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\Users\benpo> \3\7\485\4
+\3\7\485\4 : The term '\3\7\485\4' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ \3\7\485\4
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\3\7\485\4:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> {PL @BTF P<T< P
+>> .,/brv1cmw4/dtny g/2vwc45yty/j ,Vc4n5u j vac/STXRY<uj m5 msrevCfn%< ?yth.v#C?$%^I
+>> \6m\8i7\
+>> >B#5/v6vun 43.w snety5nu rd545.3vctnyhj >Ms435bvc6nyuJ >nsv3c.54yUJ< 5m4ESvnc5tmyu?JM %6r45bVT<YHNj65 gmYFUT<Yfc/QVWS$
+>>
+>> 7i \56
+>> <B#%mv.46/,nu rertgh 4ncm4yth n23ca3$TRYMTyjn 43vacETRHTMJ ny$$SN?TBvg#
+>>
+>> tg
+>> 7iuk
+>> 3
+>> b4vd5
+>> il
+>> 7yt
+>> re b5v
+>> cio8 l;i\hiukhmn
+>>  2 3
+>> wbv56iol
+>> , trd
+>> s4 .3b,6yUJ NK RESV$MN65UJ <?^54 sb
+>> 4uk
+>>  65
+>> 4b5v6
+>> cyuik
+>>  y
+>> f 43
+>> rdv
+>> c2
+>>
+>> 7
+>> 8pl
+>>  4
+>> es3b
+>> 56vyuj k
+>> 75
+>>  78po;
+>> l
+>> 3a2bv456ui .m6tyftuyg nqv.C$5m6u7yk njHG QMCax35n45ui .k% nwvcrETY?<U 7>OU K
+>>
+>> 4
+>> ,6
+>> opml
+>>  9uuuuuuu8
+>> 7ik\ 5 e
+>> 3
+>> 1
+>> qmn
+>> hw347i
+>> o l
+>> dr
+>> nbv7
+>> 9
+>> 90
+>> -[;
+>> ,7
+>> 87i
+>> m
+>> 67p9
+>> 0o[p
+>> o
+>> ?E>M/n1,cw45uyj,n .1qv,X4U.j ?%> E?fVMB1VWC4NY5TH. >@<q >?ve/Rg.2BV/4C5ujM
+>>
+>>
+>> 457
+>> UJ
+>> B5VR
+>> RTEF
+>> 1N
+>> BGV8OBP
+>>
+>>
+>>
+>> 34
+>> N7B8
+>> IK
+>>
+>> 4
+>>
+>> 1
+>> 3
+>> JH3
+>> 47O
+>> L
+>> U8
+>> 7IJN
+>> ,3M
+>> J7N8\P; L
+>> 4
+>> B5V
+>>  8
+>> U9
+>> PILUMN ?w>bsmv$%i<? lM
+>> 3
+>> 312
+>> JW6
+>> 5B6I
+>>  ,M
+>> 3 M
+>> N
+>> ,
+>> 9
+>> P\;.M
+>>
+>>
+>>
+>>
+>>  2
+>> 4N2
+>> BWV46
+>> 7UI
+>> K 8
+>> 9P
+>> L
+>> 4,
+>> RM6N
+>> OL K
+>> 2Q
+>> BV8B/P<* >uoujh<g?1 NW34B6&ol< >#wn/BDyK ,V4%uK
+>>
+>> 4
+>> 2
+>> ,4
+>> 7
+>> I
+>> 676U
+>> YF
+>> N2H
+>>
+>> N[ 8
+>> UIU
+>> MN
+>>
+>>
+>> 5
+>> MN7B
+>> 8P
+>>  I0
+>> 9-P
+>> K
+>> 8,9
+>> P
+>> ,
+>> 8888888
+>> 97OM
+>> L89
+>> U87
+>> IU
+>> M5T7G
+>>  YUTY
+>> F 1B
+>> WVER5T
+>> N
+>> 0-0
+>> [P.L
+>> 8I.9P\
+>> L
+>> 667
+>> YMN
+>> 58P9
+>> LK
+>>  4MRN6,Hmb .\z3X2.C4WXR.FCA>X#M%$uuuuu j.MQ wc?e>%yU
+>>
+>>
+>>
+>> BTU Y
+>> I
+>> E
+>> RN
+>> 3HTBY78
+>>
+>> 8I
+>> 9P
+>>  ;.89U8I\UOKM
+>> MNR6B7
+>> 8P
+>> 089U8PP
+>> L,67t6YNI
+>> M
+>>  3EB5
+>> 6L
+>> K4
+>> NBVC4X,yUM J,/.R ERBD
+>> VC
+>>
+>>
+>> `M
+>>
+>> HG1
+>> 2V656U
+>> K M45 E.ymn ?#bwVS4D5
+>> I
+>>
+>> ,5
+>> RUYJ
+>>  M
+>> 6U TF\68BOP\
+>>  89U8
+>> OIK
+>> M56
+>> Y8NO
+>> K 5
+>> E TEN
+>> BVC
+>>  8I9P
+>> K6
+>> 3,
+>> EK5J6
+>> 9PN[M
+>> 09MO0I[O;.yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyu\k
+>>
+>> 7O
+>> 6
+>> T7I
+>> JN,M5NYO8
+>> P9;/.
+>> 756
+>> E SBR
+>> YU JK
+>> 7
+>> U8O/IUy?>><vcqm#s$d%yuk< ?j
+>>
+>>
+>> 1
+>> MQWJH
+>> 4TBJ
+>> 6 YYT7M\78
+>> OIJ
+>> 23WN4
+>> B568
+>> ONP 7
+>> 8YUYTMN2HGEV9P9
+>> /4ES>?w<b$>vec S,/W4BVRCT>y^ftYRTNRB
+>> 2ER7
+>> I;
+>> 765TN
+>> IL
+>> 675R
+>> FMNYIK\M6
+>> 4NB6I7O
+>> L 9
+>> 7676
+>> ,8IK
+>>  4B
+>> 67O
+>> L
+>> 4EM
+>> 4NBRYTHN
+>>   `.\-V12C3-56U4R5\453
+>> 5V67 .6MU N/,BV`CQW3N465U6 J,.4 1QVCa#$?^>%&io
+>>
+>>
+>>
+>> `
+>> 1N
+>> GFC
+>> 646RT
+>> 7 I
+>> M
+>> 80I;L\3MNG
+>> V9M
+>> TTTTTM78
+>> ;.tttttTTTTTT,.m/,.\-VCQ35465UK
+>> 1
+>> it-argument: 5
+>>
+>> ,1QM
+>> 3J6N
+>> O ;
+>> T RNB78OP.N,*mokjb?< 1QBMV3S4D657MI.K NQam#%$^<u K.?%RR
+>>
+>>
+>> 2W
+>> ,M
+>> 6 O
+>> ; 9
+>> I0,[;\5R
+>>  6UYJ
+>>  42B
+>> V4
+>> P
+>>
+>> =M
+>> ]
+>> 0-0IO
+>> LI,MN 1b?qv<@a#ml$^?5U I
+>> 2
+>>
+>>
+>> `M1Q
+>> H3V
+>>
+>>
+>> 80KP
+>> ; \978YYTH
+>> EN2
+>> B5R7
+>> 8PN9;.,8U/y>trm xq%#w?<^uK
+>>
+>>
+>>
+>>
+>> 35NB
+>> U 76
+>> YU
+>> KMNB
+>> 3V4
+>> 789N[
+>> M90
+>> [;.
+>> \yyyyyyy,,,,,,,,9O
+At line:2 char:2
++ .,/brv1cmw4/dtny g/2vwc45yty/j ,Vc4n5u j vac/STXRY<uj m5 msrevCfn%< ? ...
++  ~
+Missing argument in parameter list.
+At line:4 char:56
++ ... vun 43.w snety5nu rd545.3vctnyhj >Ms435bvc6nyuJ >nsv3c.54yUJ< 5m4ESvn ...
++                                                     ~~~~~~~~~~~~~
+The output stream for this command is already redirected.
+At line:17 char:4
++  2 3
++    ~
+Unexpected token '3' in expression or statement.
+At line:19 char:2
++ , trd
++  ~
+Missing expression after unary operator ','.
+At line:19 char:3
++ , trd
++   ~~~
+Unexpected token 'trd' in expression or statement.
+At line:20 char:28
++ s4 .3b,6yUJ NK RESV$MN65UJ <?^54 sb
++                            ~
+The '<' operator is reserved for future use.
+At line:54 char:3
++ -[;
++   ~
+Missing type name after '['.
+At line:54 char:2
++ -[;
++  ~
+Missing expression after unary operator '-'.
+At line:54 char:2
++ -[;
++  ~
+Unexpected token '[' in expression or statement.
+At line:61 char:8
++ ?E>M/n1,cw45uyj,n .1qv,X4U.j ?%> E?fVMB1VWC4NY5TH. >@<q >?ve/Rg.2BV/4 ...
++        ~
+Missing argument in parameter list.
+Not all parse errors were reported.  Correct the reported errors and try again.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\Users\benpo> L 6
+L : The term 'L' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ L 6
++ ~
+    + CategoryInfo          : ObjectNotFound: (L:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+Suggestion [3,General]: The command L was not found, but does exist in the current location. Windows PowerShell does not load commands from the current location by default. If you trust this command, instead type: ".\L". See "get-help about_Command_Precedence" for more details.
+PS C:\Users\benpo>  7N
+7N : The term '7N' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2
++  7N
++  ~~
+    + CategoryInfo          : ObjectNotFound: (7N:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> OL ,
+At line:1 char:4
++ OL ,
++    ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\Users\benpo>  ,C.-_)(+@7-9c5 (QV^CRE- 9 1vq=csr9 -02 qerg-= - w08evrn734= wb-9rtj4320w =t -538w3bavsr0yj m5=-4e 4str-
+>>
+At line:1 char:3
++  ,C.-_)(+@7-9c5 (QV^CRE- 9 1vq=csr9 -02 qerg-= - w08evrn734= wb-9rtj4 ...
++   ~
+Missing expression after unary operator ','.
+At line:1 char:3
++  ,C.-_)(+@7-9c5 (QV^CRE- 9 1vq=csr9 -02 qerg-= - w08evrn734= wb-9rtj4 ...
++   ~~~~
+Unexpected token 'C.-_' in expression or statement.
+At line:1 char:7
++  ,C.-_)(+@7-9c5 (QV^CRE- 9 1vq=csr9 -02 qerg-= - w08evrn734= wb-9rtj4 ...
++       ~
+Unexpected token ')' in expression or statement.
+At line:1 char:13
++  ,C.-_)(+@7-9c5 (QV^CRE- 9 1vq=csr9 -02 qerg-= - w08evrn734= wb-9rtj4 ...
++             ~
+You must provide a value expression following the '-' operator.
+At line:1 char:13
++  ,C.-_)(+@7-9c5 (QV^CRE- 9 1vq=csr9 -02 qerg-= - w08evrn734= wb-9rtj4 ...
++             ~~~
+Unexpected token '9c5' in expression or statement.
+At line:1 char:13
++  ,C.-_)(+@7-9c5 (QV^CRE- 9 1vq=csr9 -02 qerg-= - w08evrn734= wb-9rtj4 ...
++             ~
+Missing closing ')' in expression.
+At line:1 char:105
++ ...  -02 qerg-= - w08evrn734= wb-9rtj4320w =t -538w3bavsr0yj m5=-4e 4str-
++                                                                          ~
+Missing closing ')' in expression.
+At line:1 char:10
++  ,C.-_)(+@7-9c5 (QV^CRE- 9 1vq=csr9 -02 qerg-= - w08evrn734= wb-9rtj4 ...
++          ~~
+The splatting operator '@' cannot be used to reference variables in an expression. '@7' can be used only as an
+argument to a command. To reference variables in an expression use '$7'.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\benpo>
+PS C:\Users\benpo> 89 o
+At line:1 char:4
++ 89 o
++    ~
+Unexpected token 'o' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\benpo> 768\,u\ y
+At line:1 char:5
++ 768\,u\ y
++     ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\Users\benpo> ,/cn3trgb 1cx/q,23trbnh . 1,bx23/tr.htm4,.32 <x5,>YH
+At line:1 char:2
++ ,/cn3trgb 1cx/q,23trbnh . 1,bx23/tr.htm4,.32 <x5,>YH
++  ~
+Missing expression after unary operator ','.
+At line:1 char:3
++ ,/cn3trgb 1cx/q,23trbnh . 1,bx23/tr.htm4,.32 <x5,>YH
++   ~
+You must provide a value expression following the '/' operator.
+At line:1 char:3
++ ,/cn3trgb 1cx/q,23trbnh . 1,bx23/tr.htm4,.32 <x5,>YH
++   ~~~~~~~
+Unexpected token 'cn3trgb' in expression or statement.
+At line:1 char:46
++ ,/cn3trgb 1cx/q,23trbnh . 1,bx23/tr.htm4,.32 <x5,>YH
++                                              ~
+The '<' operator is reserved for future use.
+At line:1 char:49
++ ,/cn3trgb 1cx/q,23trbnh . 1,bx23/tr.htm4,.32 <x5,>YH
++                                                 ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\benpo>
+PS C:\Users\benpo> \\3\3\3\.\
+The network path was not found
+At line:1 char:1
++ \\3\3\3\.\
++ ~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], IOException
+    + FullyQualifiedErrorId : System.IO.IOException
+
+PS C:\Users\benpo> ,bvm.r,t/h 33d9o -9 64ewvc46rtg-b 237qbvstrdh6 -80 2=w9sry9th -bvsc=t0j =
+At line:1 char:2
++ ,bvm.r,t/h 33d9o -9 64ewvc46rtg-b 237qbvstrdh6 -80 2=w9sry9th -bvsc=t ...
++  ~
+Missing expression after unary operator ','.
+At line:1 char:2
++ ,bvm.r,t/h 33d9o -9 64ewvc46rtg-b 237qbvstrdh6 -80 2=w9sry9th -bvsc=t ...
++  ~~~~~
+Unexpected token 'bvm.r' in expression or statement.
+At line:1 char:7
++ ,bvm.r,t/h 33d9o -9 64ewvc46rtg-b 237qbvstrdh6 -80 2=w9sry9th -bvsc=t ...
++       ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\benpo> \7\7\
+\7\7\ : The term '\7\7\' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ \7\7\
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (\7\7\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> MB?VN546cn5y/h /b2 3a/ctng53ba2vnc.wrxtg,b/wbv5cntyh/ ,$#Wv,rcyHJ n2m qa,/eg.b s3/,ytjn/43w s3.bvcyu.K &
+At line:1 char:104
++ ... wrxtg,b/wbv5cntyh/ ,$#Wv,rcyHJ n2m qa,/eg.b s3/,ytjn/43w s3.bvcyu.K &
++                                                                         ~
+The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double quotation marks ("&") to pass it as part of a
+string.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : AmpersandNotAllowed
+
+PS C:\Users\benpo> \8\\\\\\\\\8\8\8\\\\\\\\\8\8 : The term '\8\\\\\\\\\8\8' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or
+if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ \8\\\\\\\\\8\8
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\8\\\\\\\\\8\8:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> ,mnvtyr/yftdb5vtg 2cxs34b,hjy n@ M<x$$$DYty,j n#@?av.crh?< 4s? Gb/>#ebt<Y?Jm
+At line:1 char:2
++ ,mnvtyr/yftdb5vtg 2cxs34b,hjy n@ M<x$$$DYty,j n#@?av.crh?< 4s? Gb/>#e ...
++  ~
+Missing expression after unary operator ','.
+At line:1 char:2
++ ,mnvtyr/yftdb5vtg 2cxs34b,hjy n@ M<x$$$DYty,j n#@?av.crh?< 4s? Gb/>#e ...
++  ~~~~~~~~~~~~~~~~
+Unexpected token 'mnvtyr/yftdb5vtg' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\benpo> M#%Vnv
+M#%Vnv : The term 'M#%Vnv' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ M#%Vnv
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (M#%Vnv:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> \odpi [u y[qcufo yqaefi[p o
+\odpi : The term '\odpi' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ \odpi [u y[qcufo yqaefi[p o
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (\odpi:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> -0a 9-79 0
+-0a : The term '-0a' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ -0a 9-79 0
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (-0a:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> 01 9-01
+At line:1 char:4
++ 01 9-01
++    ~~~~
+Unexpected token '9-01' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\benpo> mn/ bq2,c4w4bt/ mqacw.r,et ?#>awvrc
+mn/ : The term 'mn/' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ mn/ bq2,c4w4bt/ mqacw.r,et ?#>awvrc
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (mn/:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> \b\b\b
+\b\b\b : The term '\b\b\b' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ \b\b\b
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\b\b\b:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> dk-dk d- 00 61249c69q7- r8c90
+dk-dk : The term 'dk-dk' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ dk-dk d- 00 61249c69q7- r8c90
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (dk-dk:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> mnvb wabrt/m vq/cabetng < qcawreng Q<Awcrxefg Q<amwcrxe>FG , ?QCX>Wr/. 2
+At line:1 char:25
++ mnvb wabrt/m vq/cabetng < qcawreng Q<Awcrxefg Q<amwcrxe>FG , ?QCX>Wr/ ...
++                         ~
+The '<' operator is reserved for future use.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : RedirectionNotSupported
+
+PS C:\Users\benpo> $#$ #--00(* &(^Bvt6 8b=vqcxt=c7- vc8xq30=tx9g 87qcxa3=89tc-f 29=3
+$#$ : The term '$#$' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ $#$ #--00(* &(^Bvt6 8b=vqcxt=c7- vc8xq30=tx9g 87qcxa3=89tc-f 29=3
++ ~~~
+    + CategoryInfo          : ObjectNotFound: ($#$:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> m,/nv3bxrtg nvqcbnx4/,tn1vc.nxrERG M cnxqntRCGM< cxq,amn/r,g V?CXR>xtrg,m vcx/,retxg,? >2vrxEFX
+At line:1 char:2
++ m,/nv3bxrtg nvqcbnx4/,tn1vc.nxrERG M cnxqntRCGM< cxq,amn/r,g V?CXR>xt ...
++  ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\Users\benpo>  \ \ \ \
+\ : The term '\' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included,
+verify that the path is correct and try again.
+At line:1 char:2
++  \ \ \ \
++  ~
+    + CategoryInfo          : ObjectNotFound: (\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> -l_ __@L
+-l_ : The term '-l_' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ -l_ __@L
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (-l_:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> mn, / vqcab/rtng mvqc.XNRTH G?M N@CQXA#TR>g v/ .qac3x.tgc/$
+At line:1 char:3
++ mn, / vqcab/rtng mvqc.XNRTH G?M N@CQXA#TR>g v/ .qac3x.tgc/$
++   ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\Users\benpo> \\n\gn\gg\n
+The network path was not found
+At line:1 char:1
++ \\n\gn\gg\n
++ ~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], IOException
+    + FullyQualifiedErrorId : System.IO.IOException
+
+PS C:\Users\benpo> ,. ,4mvctnb2 qc3abtg/ m cQX?A<etcg .2qac/xeR>G
+At line:1 char:2
++ ,. ,4mvctnb2 qc3abtg/ m cQX?A<etcg .2qac/xeR>G
++  ~
+Missing expression after unary operator ','.
+At line:1 char:2
++ ,. ,4mvctnb2 qc3abtg/ m cQX?A<etcg .2qac/xeR>G
++  ~
+Unexpected token '.' in expression or statement.
+At line:1 char:4
++ ,. ,4mvctnb2 qc3abtg/ m cQX?A<etcg .2qac/xeR>G
++    ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\benpo> \b\b\
+\b\b\ : The term '\b\b\' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ \b\b\
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (\b\b\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\benpo> [l l[..2 <{@{
+>> ,./2v43c5tn/ qbc4/t  .c,qxaetrcgn/ n2vcxntrg . >c/xae/,g n >CX<RG>? V?.cx,menrgn 2,vcxgr/.  q3c.xt.G./#
+>> \n\n\n\
+>> mctn, vcq3br/g n1cqx,rb/ n .xmqnslrtn V!CQ>XASNRG </q.crtxmg n.vmc,xet/g./cXR#.gf.caxst,rg ?>2qc/a3x.rgcR
+>>
+>> | !| \2|42
+>> vw,ac35t,bg /qvbac3txrg. 2qcAXntrg bm, qcxa./rg, n cstrngmb ? c3ax.t,rgv?  W3.CR?Exrg. 2/vac3./xG
+>>  \ \ \\\
+>> ,v5cm.tYH>n 2vqcaetr.gn 2CQX#A?trg ncX#<AESRG ?>cxreTgn.h 2mvacxet/rgb./ ..c./.x/,.cnvcxstrmgf b/.cqx3ar/cg c./e./ .//. 4./rc./h ././? ># >?
+>> \\ty\5 \y\
+>>
+>>
+>> 4v5
+>> cty
+>> 33a
+>> 5
+>> f vcx2t3e.t,dmnb,/ 2cxW>#S4tr.<B /CXAR
+>>
+>>
+>> wb
+>> vych
+>> x
+>> r
+>> ctg
+>>  2
+>> bv3c
+>> hh3
+>> za
+>> c
+>> f2
+>>  bvactryht/ <$>#M WVnctxrg>BN #?AVCEx.rgB
+>>
+>>
+>> 45r
+>> vcx
+>> trd\gfbv
+>> 1cqxwgr
+>>  /3. b,/nvctxrhb ,. wabvr/ECTXRG>B > #Btcry.hn n evsTCRG?>./@qa/v./ceRs
